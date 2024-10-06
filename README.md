@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Financial News Sentiment Analysis][Financial News Sentiment Analysis]]
 
 Financial News Sentiment Analysis: this project aims to build lib for fine-tuning llama2 (or even LLM-GPT) and T2 (or even encoder-decoder LLM) for doing sentiment analysis classification task.
 
