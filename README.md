@@ -38,6 +38,7 @@ LSTM is used as baseline method.
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+Docker version will be upated later
 
 ### Prerequisites
 
@@ -46,10 +47,21 @@ Jupyter Notebook
 Streamlit
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-
+1/ Step 1: Create enviroment (using Anaconda)
+```
+conda create -n test_fnsa python==3.9
+```
+2/ Step 2: install libraries
+```
+pip install -r requirements.txt
+```
+3/ Step 3: run notebook src/scripts/finetune_llama2.ipynb with the created env test_fnsa
+4/ Step 4: run streamlit app
+```
+pip install streamlit
+cd src/
+streamlit run app.py --server.port 8080
+```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -58,16 +70,14 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Vinh Nguyen - xuanvinh1609@yahoo.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/vinhnxuan/fin-news-classification](https://github.com/vinhnxuan/fin-news-classification)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
